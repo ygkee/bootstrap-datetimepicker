@@ -13,7 +13,7 @@
         "robloach/component-installer": "*",
         "components/bootstrap" : ">=3.0, <4.0",
         "components/jquery": ">=1.7.1"
-    }
+    },
     "description": "A date/time picker component designed to work with Bootstrap 3 and Momentjs. For usage, installation and demos see Project Site on GitHub",
     "devDependencies": {
         "grunt": "latest",
