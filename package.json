@@ -7,10 +7,13 @@
     },
     "dependencies": {
         "moment": "~2.8",
-        "moment-timezone" : "~0.4",
-        "bootstrap": "^3.3",
-        "jquery": ">=1.8.3 <2.2.0"
+        "moment-timezone" : "~0.4"
     },
+    "require": {
+        "robloach/component-installer": "*",
+        "components/bootstrap" : ">=3.0, <4.0",
+        "components/jquery": ">=1.7.1"
+    }
     "description": "A date/time picker component designed to work with Bootstrap 3 and Momentjs. For usage, installation and demos see Project Site on GitHub",
     "devDependencies": {
         "grunt": "latest",
@@ -34,10 +37,10 @@
     ],
     "license": "MIT",
     "main": "src/js/bootstrap-datetimepicker.js",
-    "name": "eonasdan-bootstrap-datetimepicker",
+    "name": "bootstrap-datetimepicker",
     "repository": {
         "type": "git",
-        "url": "https://github.com/eonasdan/bootstrap-datetimepicker.git"
+        "url": "https://github.com/ygkee/bootstrap-datetimepicker"
     },
     "version": "4.17.37"
 }
